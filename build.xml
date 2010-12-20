@@ -27,7 +27,7 @@
 **
 **
 -->
-<project name="myPluginName" default="dist" basedir=".">
+<project name="imageryadjust" default="dist" basedir=".">
 
     <!-- enter the SVN commit message -->
     <property name="commit.message" value="Commit message" />
@@ -99,12 +99,12 @@
         ************************************************
     -->
             <manifest>
-                <attribute name="Author" value="..."/>
-                <attribute name="Plugin-Class" value="..."/>
+                <attribute name="Author" value="Upliner"/>
+                <attribute name="Plugin-Class" value="imageryadjust.ImageryAdjustPlugin"/>
                 <attribute name="Plugin-Date" value="${version.entry.commit.date}"/>
-                <attribute name="Plugin-Description" value="..."/>
-                <attribute name="Plugin-Icon" value="..."/>
-                <attribute name="Plugin-Link" value="..."/>
+                <attribute name="Plugin-Description" value="WMSPlugin-style imagery adjustment mapmode"/>
+                <attribute name="Plugin-Icon" value="mapmode/adjustimg.png"/>
+                <attribute name="Plugin-Link" value="http://wiki.openstreetmap.org/wiki/JOSM/Plugins/WMSPlugin"/>
                 <attribute name="Plugin-Mainversion" value="${plugin.main.version}"/>
                 <attribute name="Plugin-Version" value="${version.entry.commit.revision}"/>
             </manifest>
